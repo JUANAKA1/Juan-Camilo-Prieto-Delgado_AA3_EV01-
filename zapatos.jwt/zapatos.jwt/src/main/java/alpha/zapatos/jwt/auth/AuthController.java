@@ -1,7 +1,11 @@
 package alpha.zapatos.jwt.auth;
 
 import org.springframework.http.ResponseEntity;  // Importa ResponseEntity para construir respuestas HTTP.
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;  // Importa @PostMapping para manejar solicitudes POST.
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;  // Importa @RequestBody para vincular el cuerpo de la solicitud a un objeto.
 import org.springframework.web.bind.annotation.RequestMapping;  // Importa @RequestMapping para especificar la URL base del controlador.
 import org.springframework.web.bind.annotation.RestController;  // Importa @RestController para definir un controlador REST.
@@ -26,5 +30,5 @@ public class AuthController {
         // Llama al método de registro en AuthService y devuelve una respuesta HTTP con el token JWT.
         return ResponseEntity.ok(authService.register(request));
     }
+   
 }
-

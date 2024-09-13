@@ -18,7 +18,7 @@ import io.jsonwebtoken.security.Keys;  // Importa la clase Keys para crear la cl
 @Service  // Marca la clase como un servicio de Spring
 public class JwtService {
 
-    private static final String SECRET_KEY = "54385488435983453";  // Clave secreta para firmar los tokens
+    private static final String SECRET_KEY = "123";  // Clave secreta para firmar los tokens
 
     // Genera un token JWT para un usuario
     public String getToken(UserDetails user) {
