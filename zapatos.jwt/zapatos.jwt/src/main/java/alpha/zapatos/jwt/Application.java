@@ -13,11 +13,11 @@ public class Application {
 }
 //http://localhost:8081/auth/login
 //http://localhost:8081/auth/register
-/*{
-	"username": "usuarioEjemplo",
-	"password": "123234",
-	"firstname": "Juan",
-	"lastname": "Pérez",
-	"country": "México"
- }*/
+/*    {
+        "username": "anaLopez",
+        "password": "anaLopez456",
+        "firstname": "Ana",
+        "lastname": "Lopez",
+        "country": "España"
+    }*/
   
